@@ -1,0 +1,40 @@
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 17%;
+    width: 30%;
+
+}
+
+.acc {
+    width: 100%;
+}
+
+.btn1 {
+    min-width: 11em;
+    max-width: 8em;
+    height: 3.4em;
+    background-color: #1355FF;
+    border: none;
+    color: white;
+    margin-right: 30px;
+    padding: 2%;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
