@@ -154,11 +154,13 @@ function App() {
               </div>
             </Grid>
             <Grid item xs={12} lg={6}>
-              <div style={{ marginTop: "3%" }}>
-                <h1 style={{ color: "#061237", marginTop: "4%", marginBottom: '4%' }}>Create pages using<br></br> beautiful components.</h1>
-                <div style={{ marginLeft: "6%" }}>
-                  <p style={{ size: "16px", lineHeight: "32px", marginBottom: "5%", width: "429.5px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-                  <button className="learnmore">Learn More</button>
+              <div className="second">
+                <div style={{ marginTop: "10%" }}>
+                  <h1 style={{ color: "#061237", marginTop: "4%", marginBottom: '4%' }}>Create pages using<br></br> beautiful components.</h1>
+                  <div style={{ marginLeft: "6%" }}>
+                    <p style={{ size: "16px", lineHeight: "32px", marginBottom: "5%", width: "429.5px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                    <button className="learnmore">Learn More</button>
+                  </div>
                 </div>
               </div>
             </Grid>
@@ -169,7 +171,7 @@ function App() {
           <center>
             <Grid container spacing={2}>
               <Grid item xs={12} lg={6}>
-                <img style={{ width: "552px", height: "400px" }} src={lh} alt="lh" />
+                <img className="hero-images1" src={lh} alt="lh" />
               </Grid>
               <Grid item xs={12} lg={6}>
                 <img src={rh} alt="lh" />
@@ -182,11 +184,12 @@ function App() {
           <center>
             <Grid container spacing={2}>
               <Grid item xs={12} lg={6}>
-                <img style={{ width: "448px", height: "412px" }} src={lh1} alt="lh" />
+                <img className="hero-images2" src={ui} alt="lh" />
               </Grid>
               <Grid item xs={12} lg={6}>
-                <img src={ui} alt="lh" />
+                <img style={{ width: "448px", height: "412px" }} src={lh1} alt="lh" />
               </Grid>
+
 
             </Grid>
           </center>
@@ -195,7 +198,7 @@ function App() {
           <center>
             <Grid container spacing={2}>
               <Grid item xs={12} lg={6}>
-                <img style={{ width: "448px", height: "412px" }} src={lh2} alt="lh" />
+                <img className="hero-images3" src={lh2} alt="lh" />
               </Grid>
               <Grid item xs={12} lg={6}>
                 <img src={rh2} alt="lh" />
@@ -241,9 +244,9 @@ function App() {
         </div>
         <div className="Footer">
           <Grid container spacing={3}>
-            <Grid item xs={12} lg={2}>
+            <Grid item xs={12} md={4} lg={2} className="grid">
               <center>
-                <p style={{ color: "#B6BCCE" }}>OVERVIEW</p>
+                <p style={{ color: "#B6BCCE" }} className="foot_head">OVERVIEW</p>
 
               </center>
               <ul>
@@ -256,9 +259,9 @@ function App() {
                 <li className="foot_items">Buy for Figma</li>
               </ul>
             </Grid>
-            <Grid item xs={12} lg={2}>
+            <Grid item xs={12} md={4} lg={2} className="grid">
               <center>
-                <p style={{ color: "#B6BCCE" }}>PAGES</p>
+                <p style={{ color: "#B6BCCE" }} className="foot_head">PAGES</p>
                 <ul>
                   <li className="foot_items">Landing 1</li>
                   <li className="foot_items">Landing 2</li>
@@ -274,9 +277,9 @@ function App() {
                 </ul>
               </center>
             </Grid>
-            <Grid item xs={12} lg={2}>
+            <Grid item xs={12} md={4} lg={2}>
               <center>
-                <p style={{ color: "#B6BCCE" }}>PAGES</p>
+                <p style={{ color: "#B6BCCE" }} className="foot_head">PAGES</p>
                 <ul>
                   <li className="foot_items">Case studies</li>
                   <li className="foot_items">Careers</li>
@@ -293,14 +296,14 @@ function App() {
                 </ul>
               </center>
             </Grid>
-            <Grid item xs={12} lg={6} >
+            <Grid item xs={12} md={12} lg={6} >
               <center>
                 <div className="form">
                   <input type="text" placeholder='Email Address' className="input-field" />
                   <button className='btn4'>Get started</button>
                 </div>
 
-                <Grid container spacing={3} style={{ marginTop: "8%" }}>
+                <Grid container spacing={3} style={{ marginTop: "8%" }} className="lorem">
                   <Grid item xs={12} lg={6}>
                     <h3 style={{ color: "#B6BCCE" }}>OPUS FOR WEBFLOW</h3>
                     <h1 style={{ color: "#1355FF" }}>Lorem Ipsum</h1>
@@ -308,8 +311,10 @@ function App() {
                   <Grid item xs={12} lg={6} >
                     <h3 style={{ color: "#B6BCCE" }}>OPUS FOR WEBFLOW</h3>
                     <h1 style={{ color: "#1355FF" }}>Lorem Ipsum</h1>
+
                   </Grid>
-                  <p style={{ marginTop: "12%", marginLeft: "4.9%", textAlign: "center" }}>© Template by <p style={{ color: "#1355FF", display: "inline" }}>Lorem</p> - Powered by <p style={{ color: "#1355FF", display: "inline" }}>Ipsum</p></p>
+                  <p className="rights" style={{ marginTop: "12%", marginLeft: "8.5%", textAlign: "center" }}>© Template by <p style={{ color: "#1355FF", display: "inline" }}>Lorem</p> - Powered by <p style={{ color: "#1355FF", display: "inline" }}>Ipsum</p></p>
+
                 </Grid>
               </center>
             </Grid>
