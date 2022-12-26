@@ -1,49 +1,51 @@
 .logo {
-    padding: 10px;
-
+  padding: 10px;
 }
 
 .links {
-    display: flex;
-    width: 50%;
-    justify-content: space-evenly;
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.links p {
+  cursor: pointer;
 }
 
 .links a {
-    text-decoration: none;
-    color: #37456C;
+  text-decoration: none;
+  color: #37456c;
 }
 
 .head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .btn {
-    background-color: #1355FF;
-    border: none;
-    padding: 10%;
-    color: white;
-    width: 108.67px;
-    height: 44px;
-    font-weight: bold;
+  background-color: #1355ff;
+  border: none;
+  padding: 10%;
+  color: white;
+  width: 108.67px;
+  height: 44px;
+  font-weight: bold;
 }
 
 .icon-button {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .links {
-        display: none;
-    }
+  .links {
+    display: none;
+  }
 
-    .btn {
-        display: none;
-    }
+  .btn {
+    display: none;
+  }
 
-    .icon-button {
-        display: block;
-    }
+  .icon-button {
+    display: block;
+  }
 }

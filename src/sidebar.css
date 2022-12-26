@@ -1,58 +1,57 @@
 .sidebar {
-    display: none;
+  display: none;
 }
 
 .burger-links {
-    width: 100vw;
-    text-align: center;
+  width: 100vw;
+  text-align: center;
+  cursor: pointer;
 }
 
 .burger-menu-items {
-    width: 100vw;
+  width: 100vw;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .burger-items {
-    width: 100vw;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 0.5px #061237 solid;
-    color: white;
-    font-weight: bold;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px #061237 solid;
+  color: white;
+  font-weight: bold;
 }
 
 .burger-items:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .sidebar-on {
-    display: none;
+  display: none;
 }
 
 .contactus {
-    margin-top: 15px;
-    padding: 10px;
-    width: 95px;
-    border: none;
-    background-color: #1355FF;
-    color: white;
-    font-weight: bold;
+  margin-top: 15px;
+  padding: 10px;
+  width: 95px;
+  border: none;
+  background-color: #1355ff;
+  color: white;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
-    .sidebar-on {
-        width: 100vw;
-        height: 250px;
-        background-color: #061237;
-    }
+  .sidebar-on {
+    width: 100vw;
+    height: 250px;
+    background-color: #061237;
+  }
 
-    .sidebar-on {
-        display: block;
-    }
-
-
+  .sidebar-on {
+    display: block;
+  }
 }
